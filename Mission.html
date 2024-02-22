@@ -64,9 +64,6 @@
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html"> About</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="stage.html">Stages</a>
           </li>
           <li class="nav-item">
@@ -86,16 +83,238 @@
       <div class="heading_container heading_center">
         <p>
           <span class="image main"><img src="images/LOGO-HASLER-GROUP-SIGNATURE-PANTONE.png" alt="" /></span>
-									<h2 class="major">Découverte de WINDEV</h2>
-									<p>Dès mon entretien pour intégrer HASLER en tant que stagiaire, M. MAGNIFATCHAM m’avait expliqué que mon stage serait réalisé sur WINDEV. J’ai donc pris les devants et commencé à effectuer mes recherches sur ce logiciel en amont de mon stage. J’y découvre alors un outil de génie logiciel permettant de gérer de A à Z la création de notre logiciel, de la vue jusqu’à la programmation des actions à réaliser. WINDEV a son propre langage de programmation, le W Langage, celui-ci est enrichi d’une bibliothèque énorme facilitant le développement. Pour me familiariser avec ce logiciel j’ai regardé des vidéos explicatives, proposées par PC SOFT, j’ai aussi analysé le code d’un logiciel programmé par mon maitre de stage. En mettant en parallèle ces 2 méthodes de découvertes j’ai pu assez rapidement me familiariser avec ce nouveau langage. 	</p>
-									<h2 class="major">Sujet : </h2>
-									<p style="font-size: 30px;">Développement d’un Software et gestion de sa base de données sous Windev</p>
-									<h2>Résumé</h2>
-									<p>Voilà le rapport contenant l’intégralité de ces 2 mois stages, celui-ci retrace mes impressions ainsi que le résultat de mon travail.</p>
-									<p>Le sujet de mon stage répondait à un besoin, il fallait créer un logiciel permettant de générer facilement une table d’échange entre le contrôleur SCM3 (Smart Control Module 3) et le logiciel de supervision du client.</p>
-									<p>A l’issu de mon stage je considère que la mission qu’on m’a confiée est réussi. Le logiciel VisuaLLink en est le résultat, celui-ci est constitué d’une base de données comprenant tous les types d’éléments à ajouter dans une table de communication, ces éléments sont triés par type de machine. Ils sont accessibles via une interface utilisateur ludique et ergonomique qui permet une adaptation rapide et logique au logiciel.</p>
-									<p>Ce logiciel permet d’importer des tables par défauts pour les modifier, 80% de l’utilisation de celui-ci passe par cette fonctionnalité. Une fois la table de communication réadapté au client il est possible de l’exporter pour en créer un fichier interprétable par le SCM3.</p>
-								</li>
+          <div class="row">
+            <div class="col-md-6">
+              <!-- Texte -->
+              <h2 class="major">Découverte de WINDEV</h2>
+              <p>Dès mon entretien pour intégrer HASLER en tant que stagiaire, M. MAGNIFATCHAM m’avait expliqué que mon stage serait réalisé sur WINDEV. J’ai donc pris les devants et commencé à effectuer mes recherches sur ce logiciel en amont de mon stage. J’y découvre alors un outil de génie logiciel permettant de gérer de A à Z la création de notre logiciel, de la vue jusqu’à la programmation des actions à réaliser. WINDEV a son propre langage de programmation, le W Langage, celui-ci est enrichi d’une bibliothèque énorme facilitant le développement. Pour me familiariser avec ce logiciel j’ai regardé des vidéos explicatives, proposées par PC SOFT, j’ai aussi analysé le code d’un logiciel programmé par mon maitre de stage. En mettant en parallèle ces 2 méthodes de découvertes j’ai pu assez rapidement me familiariser avec ce nouveau langage.</p><br>
+            </div>
+            <div class="col-md-6">
+              <!-- Image -->
+              <span class="image main"><img src="images/windev.png" alt="" /></span>
+            </div>
+          </div>
+          <br> <br>
+          <br> <br>
+          <br> <br>
+          
+          <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div style="flex: 1;">
+                <span class="image main"><img src="images/Visual_Logo.png" alt="" style="max-width: 100%;"></span>
+            </div>
+            <div style="flex: 1;">
+                <h2 class="major">Sujet</h2>
+                <br><br>
+                <h2>Développement d’un Software et gestion de sa base de données sous Windev</h2>
+                <p style="font-size: 25px;">Le but est d’améliorer le projet VisuaLLink qu’un autre stagiaire avait commencé pour pouvoir le rendre plus esthétique et une prise en main plus simple pour les clients. Tout en apportant de nouvelles fonctionnalités.</p>
+            </div>
+        </div>
+        <br> <br>
+        
+
+                  <!-- DEBUT MISSION -->
+	
+	
+	
+	<section id="aboutg" class="skills section-bg">
+    <div class="container">
+
+   <h2>Missions qui m'ont été données à mon prémier stage</h2>
+                
+   <br> <br>	
+
+      <style>
+        .missionTitle {
+          border: 2px solid #ccc;
+          border-radius: 5px;
+          padding: 10px;
+          cursor: pointer;
+          display: inline-block;
+          background-color: rgba(0, 0, 0, 0); /* Gris semi-transparent */
+          box-shadow: 0 4px 6px rgb(0, 0, 0); /* Ombre */
+        }
+        .arrow {
+          display: inline-block;
+          margin-left: 5px;
+          color: blue; /* Couleur bleue par défaut */
+        }
+        .missionContent {
+          display: none;
+          background-color: rgba(0, 0, 0, 0.418); 
+          padding: 10px;
+          border-radius: 5px;
+          box-shadow: 0 4px 6px rgb(0, 0, 0); /* Ombre */
+        }
+        .arrow-open {
+          color: orange; /* Couleur orange lorsque la liste est ouverte */
+        }
+      </style>
+      </head>
+      <body>
+      
+      <h2 class="missionTitle" onclick="toggleMission(1)">Mises à jour sur le SCM 3<span id="arrow1" class="arrow">&#9660;</span></h2>
+      <div id="missionContent1" class="missionContent">
+        
+          <h2>Description</h2>
+          <br> <br>
+          <p>La première activité réalisée durant mon stage était d'effectuer des mises à jour sur le SCM 3, à la fois en urgence et en utilisant les dernières mises à jour disponibles.   <br> <br> 
+          Le logiciel utilisé était  : <br>  
+          - ModScan, logiciel de balayage utilisant le protocole ModbusTCP. <br> <br> 
+          J'ai également exploré toutes les options de la PDU pour me familiariser davantage avec le matériel et le logiciel de l'entreprise. <br> <br> 
+          <img src="images/PDU.jpg" alt="pc" style="max-width: 50%; height: auto;"><br><br>
+      
+      </div>
+      
+      <h2 class="missionTitle" onclick="toggleMission(2)">Formatage carte SD en système de fichiers FAT32<span id="arrow2" class="arrow">&#9660;</span></h2>
+      <div id="missionContent2" class="missionContent">
+        
+          <h2>Description</h2>
+          <br> <br>
+          <p>Le formatage d'une carte SD en système de fichiers FAT32 est un processus qui consiste à préparer la carte SD pour le stockage et la gestion des données selon les spécifications du système de fichiers FAT32. <br> <br> 
+          <p>Cette opération était nécessaire pour assurer la compatibilité de la carte avec différents appareils, tels que la PDU.  <br> <br> 
+          <p>Enfin, j'ai également appris à mettre à jour la PDU. J'ai acquis des connaissances sur les procédures et les étapes nécessaires pour effectuer cette tâche. 
+            <br> <br> 
+      </div>
+
+      <h2 class="missionTitle" onclick="toggleMission(3)">Communication protocole Modbus TCP/IP<span id="arrow3" class="arrow">&#9660;</span></h2>
+      <div id="missionContent3" class="missionContent">
+        
+          <h2>Description</h2>
+          <br> <br>
+          <p> Mon objectif était de faire communiquer Windev avec le SCM3 en utilisant le protocole Modbus TCP/IP.<br> <br> 
+            <img src="images/ModBus.png" alt="pc" style="max-width: 50%; height: auto;"><br><br>
+            <img src="images/Code_ModBus.png" alt="pc" style="max-width: 50%; height: auto;"><br><br>
+            <p style="font-size: 25px;">DÉMARCHE DE LA RÉALISATION : </p>
+            <li>Analyse des besoins</li>
+            <li>Recherche pour comprendre comment fonctionne la communication</li>
+            <li>Implémentation des améliorations</li>
+            <li>Tests et débogage</li>
+            <li>Intégration de la communication ModBusTCP</li>
+            <li>Documentation</li>
+           
+            <p style="font-size: 25px;">BILAN DE LA MISSION :  </p>
+            <p> En conclusion, la mission d'amélioration du projet VisuaLLink a progressé de manière satisfaisante, avec des étapes clés accomplies. Il est important de recueillir les retours des utilisateurs et des clients pour continuer à améliorer le projet et répondre à leurs besoins spécifiques.<br> <br>
+              
+            <p style="font-size: 25px;">BILAN PERSONNEL :  </p>
+            <p> La mission d'amélioration du projet VisuaLLink m'a permis d'acquérir de nouvelles compétences et de développer mon expertise dans plusieurs domaines :</p>
+            <li>Développement logiciel</li>
+            <li>Conception d'interface utilisateur</li>
+            <li>Communication et travail d'équipe</li>
+            <p> Bien que la mission ait été globalement enrichissante, j'ai également rencontré certaines difficultés :</p>
+            <li>Gestion du temps</li>
+            <li>Complexité techniqueP</li>
+            <li>Adaptation aux retours utilisateurs</li>
+      </div>
+      
+      <h2 class="missionTitle" onclick="toggleMission(4)">Table de communication SCM3<span id="arrow4" class="arrow">&#9660;</span></h2>
+      <div id="missionContent4" class="missionContent">
+        
+          <h2>Description</h2>
+          <br> <br>
+          <p> L'objectif de mon projet principal était de centraliser dans une application tous les paramètres utiles d'un SCM3 d'un tableau afin que les ingénieurs n'aient pas à les écrire manuellement et pour éviter les erreurs d'écriture.<br> <br> 
+            <p> Table de Communication fait par l'ingénieurs que le SCM3 peut traiter <br> <br>
+              <img src="images/Tb_Com.png  " alt="pc" style="max-width: 50%; height: auto;"><br><br>
+              <p> Table de Communication dans l'application VisuaLLink <br> <br>
+            <img src="images/table.png  " alt="pc" style="max-width: 50%; height: auto;"><br><br>
+      </div>
+
+      <h2 class="missionTitle" onclick="toggleMission(5)">Résumé Stage 1<span id="arrow5" class="arrow">&#9660;</span></h2>
+      <div id="missionContent5" class="missionContent">
+        
+          <p>Voici le rapport contenant l’intégralité de ces 2 mois de stage, celui-ci retrace mes impressions ainsi que le résultat de mon travail.</p>
+          <p>Le sujet de mon stage répondait à un besoin, il fallait créer un logiciel permettant de générer facilement une table d’échange entre le contrôleur SCM3 (Smart Control Module 3) et le logiciel de supervision du client.</p>
+          <p>À l’issue de mon stage, je considère que la mission qui m’a été confiée est réussie. Le logiciel VisuaLLink en est le résultat, celui-ci est constitué d’une base de données comprenant tous les types d’éléments à ajouter dans une table de communication. Ces éléments sont triés par type de machine et sont accessibles via une interface utilisateur ludique et ergonomique qui permet une adaptation rapide et logique au logiciel.</p>
+          <p>Ce logiciel permet d’importer des tables par défaut pour les modifier, 80% de l’utilisation de celui-ci passe par cette fonctionnalité. Une fois la table de communication réadaptée au client, il est possible de l’exporter pour en créer un fichier interprétable par le SCM3.</p>
+      
+      </div>
+
+      <br> <br>	
+
+      <h2>Missions qui m'ont été données à mon deuxième stage</h2>
+
+      <br> <br>
+
+      <h2 class="missionTitle" onclick="toggleMission(6)">Gérer 2 PDU en simultané<span id="arrow6" class="arrow">&#9660;</span></h2>
+      <div id="missionContent6" class="missionContent">
+        
+          <p>Ma première mission, je devais confirmer s'il était possible de gérer plusieurs PDU simultanément grâce à l'émulateur BlueStacks.</p><br>
+          <p>Pour ce faire, j'ai dû utiliser un script pour forcer le lancement de 2 PDU simultanément, car par défaut BlueStacks empêche le lancement de 2 émulateurs.</p><br> <br>
+
+          </div> 
+          
+          <h2 class="missionTitle" onclick="toggleMission(7)">Convertion Tableau Excel à Fichier PSF<span id="arrow7" class="arrow">&#9660;</span></h2>
+      <div id="missionContent7" class="missionContent">
+        <h2>Description</h2>
+          <br> <br>
+          <p> La mission était de créer des tableaux dans Excel regroupant les paramètres avec leur valeur pour chaque fonctionnalité afin de faciliter la conversion vers un fichier PSF.<br> <br> 
+            <p style="font-size: 25px;">La disposition de base des paramètres du System dans une page Excel : </p>
+            <img src="images/Table_Excel.png" alt="pc" style="max-width: 50%; height: auto;"><br><br>
+            <p style="font-size: 25px;">Le tableau avec tous les paramètre ranger : </p>
+            <img src="images/Table_Orga.png" alt="pc" style="max-width: 60%; height: auto;"><br><br>
+            <p style="font-size: 25px;">La fichier PSF après la conversion du fichier Excel : </p>
+            <img src="images/PSF.png" alt="pc" style="max-width: 50%; height: auto;"><br><br>
+            <p style="font-size: 25px;">CONTRAINTES : </p>
+            <p>Le Temps (4Jour)</p>
+            <p>Complexité de Excel à cause des formules à rentrer pour chercher les valeurs correspondent dans une autre page </p><br>
+            <p style="font-size: 25px;">DÉMARCHE DE LA RÉALISATION :  </p>
+            <li>Analyse des besoins</li>
+            <li>Recherche pour comprendre comment fonctionne la communication</li>
+            <li>Implémentation des améliorations</li>
+            <li>Tests et débogage</li>
+            <li>Intégration de la communication ModBusTCP</li>
+            <li>Documentation</li>
+           
+            <p style="font-size: 25px;">BILAN DE LA MISSION :  </p>
+            <p> En conclusion, la mission d'amélioration du projet VisuaLLink a progressé de manière satisfaisante, avec des étapes clés accomplies. Il est important de recueillir les retours des utilisateurs et des clients pour continuer à améliorer le projet et répondre à leurs besoins spécifiques.<br> <br>
+              
+            <p style="font-size: 25px;">BILAN PERSONNEL :  </p>
+            <p> La mission d'amélioration du projet VisuaLLink m'a permis d'acquérir de nouvelles compétences et de développer mon expertise dans plusieurs domaines :</p>
+            <li>Développement logiciel</li>
+            <li>Conception d'interface utilisateur</li>
+            <li>Création de script.vbs</li>
+            <li>Connaissance sur Excel</li>
+            <li>Communication et travail d'équipe</li>
+            <p> Bien que la mission ait été globalement enrichissante, j'ai également rencontré certaines difficultés :</p>
+            <li>Gestion du temps</li>
+            <li>Complexité techniqueP</li>
+            <li>Adaptation aux retours utilisateurs</li>
+      </div>
+
+      <h2 class="missionTitle" onclick="toggleMission(8)">Résumé Stage 2<span id="arrow8" class="arrow">&#9660;</span></h2>
+      <div id="missionContent8" class="missionContent">
+        
+          <p>J'ai dû vérifier la possibilité de gérer plusieurs PDU simultanément avec BlueStacks. En contournant cette restriction, j'ai lancé deux PDU à l'aide d'un script, puis j'ai organisé les données dans Excel pour les convertir en fichier PSF.</p>
+          <p>Malgré des contraintes de temps (4 jours) et la complexité des formules Excel, j'ai réussi les étapes suivantes : analyse des besoins, recherche, implémentation, tests, intégration ModBusTCP et documentation.</p>
+          <p>Le projet VisuaLLink a progressé, soulignant l'importance des retours utilisateurs. Sur le plan personnel, j'ai développé mes compétences en développement logiciel, interface utilisateur, scripts VBS, Excel, communication et travail d'équipe, malgré quelques difficultés de gestion du temps et d'adaptation aux retours.</p>
+          
+      
+      </div>
+
+      <br> <br>	
+
+      <script>
+        function toggleMission(id) {
+          var content = document.getElementById("missionContent" + id);
+          var arrow = document.getElementById("arrow" + id);
+      
+          if (content.style.display === "none") {
+            content.style.display = "block";
+            arrow.innerHTML = "&#9650;";
+            arrow.classList.add("arrow-open");
+          } else {
+            content.style.display = "none";
+            arrow.innerHTML = "&#9660;";
+            arrow.classList.remove("arrow-open");
+          }
+        }
+      </script>
+
+</body>
+</html>
+
+<br> <br>	
+
+
 								<ul>
                   <li class="center-button">
                     <a href="Presentation.html">
@@ -165,9 +384,6 @@
             <a class="active" href="index.html">
               Home
             </a>
-            <a class="" href="about.html">
-              About
-            </a>
             <a class="" href="stage.html">
               Stages
             </a>
@@ -183,35 +399,29 @@
   </div>
 </section>
 
-<!-- end info section -->
+<!-- footer section -->
+<section class="footer_section">
+  <div class="container">
+    <p>
+      <span id="displayYear"></span> © PortFolio RAMET Matéo 2023-2024.
+    </p>
+  </div>
+</section>
+<!-- end footer section -->
 
-  <!-- footer section -->
-  <section class="footer_section">
-    <div class="container">
-      <p>
-         <span id="displayYear"></span> © PortFolio RAMET Matéo 2023-2024. 
-        
-      </p>
-    </div>
-  </section>
-  <!-- footer section -->
-
-  <!-- jQery -->
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <!-- popper js -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <!-- bootstrap js -->
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <!-- owl slider -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
-  <!-- custom js -->
-  <script type="text/javascript" src="js/custom.js"></script>
-  <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
-  </script>
-  <!-- End Google Map -->
+<!-- jQuery -->
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<!-- popper js -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<!-- bootstrap js -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- owl slider -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- custom js -->
+<script type="text/javascript" src="js/custom.js"></script>
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+<!-- End Google Map -->
 
 </body>
 

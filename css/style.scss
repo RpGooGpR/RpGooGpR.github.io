@@ -408,8 +408,7 @@ a:focus {
         text-transform: uppercase;
       }
 
-      p {}
-
+      
       a {
         color: $primary2;
         font-weight: 600;
@@ -777,22 +776,28 @@ a:focus {
 
 // end info section
 
-/* footer section*/
 
+
+/* footer section*/
 .footer_section {
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer_section {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: $white;
   text-align: center;
-
-  p {
-    color: $primary2;
-    padding: 25px 0;
-    margin: 0;
-
-    a {
-      color: inherit;
-    }
-  }
 }
 
-// end footer section
+.footer_section p {
+  color: $primary2;
+  padding: 25px 0;
+  margin: 0;
+}
+
+.footer_section p a {
+  color: inherit;
+}
