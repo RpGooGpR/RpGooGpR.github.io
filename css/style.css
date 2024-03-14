@@ -1659,3 +1659,7 @@ body {
 /*Plus d'info*/
 /*Plus d'info*/
 /*Plus d'info*/
+
+body {
+  margin-left: 0;
+}
