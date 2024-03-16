@@ -1,7 +1,4 @@
-body {
-    font-family: "Poppins", sans-serif;
-    margin-left: 75px;
-}
+
 
 .HRnormal{
     color: black;
@@ -10,21 +7,11 @@ body {
     border: 1px solid rgb(0, 0, 0);
     background-color: black;
     /*width: 740px;*/
-}
+}   
 
 
 
-.Presentation {
-    padding-top: 6%;
-    padding-bottom: 8%;
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    flex-direction: row;
-    justify-content:center;
-    height: inherit;
-    background-color: linear-gradient(130deg, #231a6f, #0f054c)
-}
+
 
 #DescriptionFormation {
     text-align: center;
