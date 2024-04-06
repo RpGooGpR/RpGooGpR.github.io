@@ -675,6 +675,21 @@ a:focus {
 }
 
 /*team section end*/
+
+/*atout section start*/
+.why_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px; /* Espacement entre chaque élément */
+}
+
+.box {
+  width: 100%;
+}
+
+  /*atout section end*/
+
+
 /* client section start */
 .client_section .heading_container {
   margin-bottom: 30px;
